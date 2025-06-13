@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_URL = "http://95.217.188.195:8000/students";
+const API_URL = "http://95.217.xxx.yyy:8000/students";
 
 export const getStudents = async () => {
     const response = await axios.get(API_URL);
