@@ -12,7 +12,7 @@ load_dotenv()
 
 app = FastAPI()
 
-frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://95.217.188.195:8000")
+frontend_origin = os.getenv("FRONTEND_ORIGIN", "http://95.217.xxx.yyy:8000")
 
 
 
